@@ -194,6 +194,9 @@ Puppet::Type.type(:rhsm_register).provide(:subscription_manager) do
      params << "--environment" << @resource[:lifecycleenv]
     end
     params << "--org" << @resource[:org]
+    if @resource[:reg_name]
+      params << "--name" << @resource[:reg_name]
+    end
     return params
   end
 
