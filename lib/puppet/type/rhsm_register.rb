@@ -86,7 +86,7 @@ EOD
     desc "A service level for automatic attachement with Satellite servers."
   end
 
-  newparam(:regname) do
+  newparam(:reg_name) do
     desc "The name of the server to be registered."
   end
   
