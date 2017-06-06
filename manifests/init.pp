@@ -130,7 +130,7 @@ class subscription_manager (
   String $servicelevel = 'Standard',
   Variant[String, Boolean, Enum['yes','no']] $force = false,
   String $org = 'Default_Organization',
-  String $reg_name,
+  String $reg_name = $::fqdn,
   Variant[String, Class] $repo = '',
   Hash $config_hash = {},
 ) {
