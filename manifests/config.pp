@@ -24,6 +24,7 @@ class subscription_manager::config {
           'autosubscribe'   => $::subscription_manager::autosubscribe,
           'force'           => $::subscription_manager::force,
           'org'             => $::subscription_manager::org,
+          'reg_name'        => $::subscription_manager::reg_name,
           'servicelevel'    => $::subscription_manager::servicelevel,
           'activationkey'   => $::subscription_manager::activationkey,
         }
@@ -37,6 +38,7 @@ class subscription_manager::config {
             'autosubscribe' => $::subscription_manager::autosubscribe,
             'force'         => $::subscription_manager::force,
             'org'           => $::subscription_manager::org,
+            'reg_name'      => $::subscription_manager::reg_name,
             'servicelevel'  => $::subscription_manager::servicelevel,
             'username'      => $::subscription_manager::username,
             'password'      => $::subscription_manager::password,
